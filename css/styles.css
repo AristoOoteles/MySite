@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family:'Merriweather', serif;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/stars-964022.png);
+    
+}
+
+h1{
+    font-size: 500%;
+    margin: 10% auto 0 auto;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: normal;
+   
+}
+
+h2{
+    font-family: 'Taviraj', serif;
+    font-size: 200%;
+    color: #faed27;
+    font-weight: normal;
+    
+}
+
+h3{
+    font-family: 'Quicksand', serif;
+    color: #ffffff;
+    margin: 1rem auto 1rem auto;
+    
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0rem;
+    line-height: 1rem;
+
+
+}
+
+
+
+.top-container{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/stars-964022.png);
+    position: relative;
+    padding-top: 0px;
+    color: #ffffff;
+    padding-bottom: 250px;
+}
+
+.top-container a{
+    font-family: 'Taviraj', serif;
+}
+
+
+
+
+
+.skills{
+    margin: 0 0 100px 0;
+}
+
+
+
+.card{
+    width: 19rem;
+    height: 19rem;
+    display: grid;
+    grid-template-rows: minmax(100%, 1fr);
+    grid-template-areas: "stack";
+    position: relative;
+    border-radius: 200px;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+.card > img,
+.card > figcaption {
+    grid-area: stack;
+}
+.card > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card > figcaption {
+    grid-area: stack;
+    background-color: #faed27e0;
+    transform: translateY(calc(100% - 4rem));
+    transition: transform 600ms;
+}
+.card > figcaption > h3{
+    height: 4rem;
+}
+.card:hover figcaption{
+    transform: none;
+}
+
+
+.left, .right, .middle{
+    display: inline-block;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+
+
+.middle-container{
+    
+    position: relative;
+    margin: 100px auto 0 auto;
+    padding-top: 7%;
+    
+    
+   
+}
+.bottom-container{
+    margin: 100 auto 0 auto;
+   
+    padding-top: 100px;
+    position: relative;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+
+
+.mond{
+    height: 30%;
+    width: 30%;
+    margin-top: 0 auto;
+    padding-top: 10%;
+    filter: drop-shadow(5px 0px 15px #f6f9fc);
+}
+
+hr {
+    
+    border-style: dotted none none;
+    border-color: #ffffff;
+    border-width: 10px;
+    width: 4%;
+    margin: 80px auto 40px auto;
+}
+.footer-link{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.btn {
+
+
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 50px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 17px;
+    background: #ca9e0b;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.contact-me{
+    margin-bottom: 5em;
+}
+.contact-message{
+    margin:40px auto 40px  ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+
+}
+span{
+    color:#ca9e0b 
+}
+
+.top-container nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+.top-container nav ul li a{
+    color:#ffffff;; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-container nav ul li a:hover{
+    color: #ca9e0b;
+    transition: 0.3s;
+}
+
+button{
+    background-color: #06283D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
